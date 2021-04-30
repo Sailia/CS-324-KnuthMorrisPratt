@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+
+<module name="Checker">
+    <module name="TreeWalker">
+
+        <!--Annotations-->
+        <module name="MissingOverride"/>
+
+        <!--Block Checks-->
+        <module name="AvoidNestedBlocks"/>
+        <module name="EmptyBlock"/>
+        <module name="EmptyCatchBlock"/>
+
+        <!--Class Design-->
+        <module name="InterfaceIsType"/>
+        <module name="RedundantModifier"/>
+
+        <!--Coding-->
+        <module name="EmptyStatement"/>
+        <module name="EqualsHashCode"/>
+        <module name="IllegalCatch"/>
+        <module name="IllegalThrows"/>
+        <module name="InnerAssignment"/>
+        <module name="OneStatementPerLine"/>
+        <module name="RequireThis"/>
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/>
+        <module name="StringLiteralEquality"/>
+        <module name="UnnecessaryParentheses"/>
+        <module name="UnnecessarySemicolonAfterTypeMemberDeclaration"/>
+
+        <!--Imports-->
+        <module name="AvoidStarImport"/>
+
+        <!--Miscellaneous-->
+        <module name="ArrayTypeStyle"/>
+        <module name="Indentation"/>
+        <module name="OuterTypeFilename"/>
+
+        <!--Naming Conventions-->
+        <module name="ConstantName"/>
+        <module name="MemberName"/>
+        <module name="MethodName"/>
+        <module name="ParameterName"/>
+        <module name="StaticVariableName"/>
+        <module name="TypeName"/>
+        
+        <!--White Space-->
+        <module name="GenericWhitespace"/>
+        <module name="NoWhitespaceBefore">
+            <property name="allowLineBreaks" value="true"/>
+        </module>
+        <module name="SingleSpaceSeparator"/>
+    </module>
+</module>
+

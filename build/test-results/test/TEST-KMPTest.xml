@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="KMPTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-30T02:02:46" hostname="macbook-pro.lan" time="0.033">
+  <properties/>
+  <testcase name="getsearchForPattern1()" classname="KMPTest" time="0.025"/>
+  <testcase name="getsearchForPattern2()" classname="KMPTest" time="0.001"/>
+  <testcase name="getsearchForPattern3()" classname="KMPTest" time="0.001"/>
+  <testcase name="getPrefixArrayWithDashes()" classname="KMPTest" time="0.001"/>
+  <testcase name="firstElementInPrefixArrayNeg()" classname="KMPTest" time="0.001"/>
+  <testcase name="getPrefixArray()" classname="KMPTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
